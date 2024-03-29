@@ -20,6 +20,14 @@ function operaciones(tipo, numero1, numero2){
 
         resultado = numero1 + numero2;
 
+    }else if(tipo == 'multiplicacion'){
+        
+        resultado = numero1 * numero2;
+
+    }else if(tipo == 'division'){
+        resultado = numero1 / numero2;
+        let residuo = numero1 % numero2;
+        confirm('residuo: ' + residuo);
     }
     
     confirm('resultado: ' + resultado);
@@ -28,11 +36,7 @@ function operaciones(tipo, numero1, numero2){
 
 operaciones(tipo, n1, n2);
 
-//Suma
-const ejemploSuma = 10 + 10;
 
-//Resta
-const ejemploResta = 10 - 10;
 
 
 
