@@ -1,4 +1,7 @@
 //Operaciones Aritmeticas
+
+//explicadas como una calculadora usando funciones: suma, resta, multiplicacion, division.
+
 let tipo = prompt('ingresa el tipo de operacion: ');
 let resultado;
 
@@ -21,11 +24,14 @@ function operaciones(tipo, numero1, numero2){
         resultado = numero1 + numero2;
 
     }else if(tipo == 'multiplicacion'){
-        
+
         resultado = numero1 * numero2;
 
     }else if(tipo == 'division'){
+
+        //division
         resultado = numero1 / numero2;
+        //residuo de la division
         let residuo = numero1 % numero2;
         confirm('residuo: ' + residuo);
     }
@@ -35,6 +41,19 @@ function operaciones(tipo, numero1, numero2){
 }
 
 operaciones(tipo, n1, n2);
+
+
+//Operadores de Aumento
+
+let numeroAumento = 1;
+numeroAumento++;
+
+let numeroDisminucuion = 1;
+numeroDisminucuion--;
+
+//Operadores de Asignación
+
+
 
 
 
