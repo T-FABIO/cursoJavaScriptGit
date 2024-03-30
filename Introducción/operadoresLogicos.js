@@ -21,7 +21,6 @@ const tienePermiso = true;
 
 //Ejemplo #3 - !
 // 📝 el simbolo (!) invierte el valor inicial )
-
 // const variable = true;
 // console.log(!variable); // false
 
