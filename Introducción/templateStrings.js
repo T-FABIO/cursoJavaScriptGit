@@ -3,7 +3,7 @@ const edad = '19';
 const pais = 'colombia';
 
 // Manera normal concatenando variables
-console.log('la persona es ' + nombre + ' tiene ' + edad + ' años y es de ' + pais)
+console.log('la persona es ' + nombre + ' tiene ' + edad + ' años y es de ' + pais);
 // salida : la persona es fabio tiene 19 años y es de colombia 
 
 // simbologia(``) comado en teclado, alt + 96 = (`)
