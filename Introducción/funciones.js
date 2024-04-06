@@ -1,7 +1,7 @@
 // 📌 Forma #1
-// function saludo() {
-//     console.log('hola');
-// }
+function saludo() {
+    alert('hola');
+}
 
 // const variable = saludo; // referencia a la funcion.
 
@@ -10,7 +10,7 @@
 //     console.log('hola desde variable');
 // }
 
-// saludo();
+//saludo();
 
 //📌 Forma #3 - Funcion de tipo flecha
 
