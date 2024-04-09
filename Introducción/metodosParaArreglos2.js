@@ -2,10 +2,13 @@
     📌 .indexOf()
     Obtenemos el primer index de un elemento
     si no hay elemento nos retorna -1
+
+    1er - parametro: el elemento que estemos buscando
+    2do - parametro: desde que index quieres que empiece la busqueda
 */
 
 const nombres = ['fabio', 'pedro', 'pablo', 'carlos', 'mario', 'juan', 'carlos', 'santiago'];
-// console.log(nombres.indexOf('carlos'));
+console.log(nombres.indexOf('carlos', 4)); // salida : 6
 
 // si hay datos repetidos en el arreglo devuelce el index del primer elemento repetido
 // si buscas un elemento que no esta en la lista retorna -1
@@ -54,7 +57,7 @@ const nombres = ['fabio', 'pedro', 'pablo', 'carlos', 'mario', 'juan', 'carlos',
     📌 .map()
     Nos permite ejecutar una funcion por cada elemento y crear un nuevo arreglo
     en base a los resultados de esa funcion
-    
+
 */
 
 // Transformar todos los nombres a mayusculas
@@ -63,7 +66,7 @@ const nombres = ['fabio', 'pedro', 'pablo', 'carlos', 'mario', 'juan', 'carlos',
 // y no se unsan llaves ni return.
 // nombresMayusculas = nombres.map((nombre) => nombre.toUpperCase());
 
-// console.log(nombresMayusculas); 
+// console.log(nombresMayusculas);
 
 /*
     📌 .filter();
@@ -113,21 +116,21 @@ const nombres = ['fabio', 'pedro', 'pablo', 'carlos', 'mario', 'juan', 'carlos',
 
 /*
     📌 .some()
-    Nos permite ejecutar un condicional sobre cada elemento y 
+    Nos permite ejecutar un condicional sobre cada elemento y
     nos devuelve true si algun elemento cumplio la condicion.
 */
 
 // Condicion: si algunos de los nombres sean cadena de texto
 
-const nombresValidos = nombres.some((nombre) => {
-    // le decimos que si son string con typeof y 'string'.
-    if (typeof nombre !== 'string') {
-        return true;
-    } else {
-        return false;
-    }
-});
+// const nombresValidos = nombres.some((nombre) => {
+//     // le decimos que si son string con typeof y 'string'.
+//     if (typeof nombre !== 'string') {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// });
 
-console.log('si el arreglo es invalido? ' + nombresValidos);
+// console.log('si el arreglo es invalido? ' + nombresValidos);
 // true si hay algun valor invalido
 // false si hay algun valor invalido
