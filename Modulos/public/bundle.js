@@ -27,3 +27,4 @@ const correo = 'corre@correo.com';
 
 console.log(obtenerUsuario());
 console.log(correo);
+

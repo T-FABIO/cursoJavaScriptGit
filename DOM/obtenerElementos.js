@@ -73,5 +73,6 @@
 /* 
 	📌 Podemos encadenar todos los metodos para obtener elementos.
 */
+
 const contenedor2 = document.getElementById('contenedor2');
 console.log(contenedor2.querySelectorAll('.caja'));
